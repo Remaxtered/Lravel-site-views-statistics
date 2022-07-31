@@ -13,9 +13,6 @@ use Illuminate\Http\Request;
 class StatisticsController extends Controller
 {
 
-    static $country_id;
-    public $area_id;
-
     public static function siteViewed () {
 
         if (!session()->has('viewed')) {
